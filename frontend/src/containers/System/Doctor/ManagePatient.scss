@@ -1,0 +1,41 @@
+.manage-patient-container {
+  .m-p-title {
+    text-align: center;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .manage-patient-body {
+    table {
+      margin-top: 10px;
+      .btn-comfirm {
+        background-color: orange;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 3px;
+        height: 30px;
+      }
+    }
+    .manage-patient-all {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: end;
+      .btn {
+        width: 40%;
+      }
+    }
+    .btn-status {
+      outline: none;
+      border: none;
+      height: 40px;
+      margin-left: 10px;
+      width: 120px;
+    }
+    .active {
+      background-color: orange;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.manage-doctor-container {
+  .m-p-title {
+    text-align: center;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .manage-doctor-body {
+    table {
+      margin-top: 10px;
+      .btn-comfirm {
+        background-color: orange;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 3px;
+        height: 30px;
+      }
+      tbody {
+        tr {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

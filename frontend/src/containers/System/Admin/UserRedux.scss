@@ -1,0 +1,37 @@
+.title-user {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.user-redux-body {
+  .preview-img-container {
+    display: flex;
+    gap: 15px;
+    .upload {
+      .label-upload {
+        padding: 5px;
+        border-radius: 3px;
+        background-color: #ddd;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+    .preview-image {
+      height: 50px;
+      width: 100px;
+      border: 1px solid #ddd;
+      background: center center no-repeat;
+      background-size: contain;
+      cursor: pointer;
+    }
+  }
+
+  .none {
+    display: none;
+  }
+}

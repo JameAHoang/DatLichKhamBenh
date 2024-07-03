@@ -1,0 +1,131 @@
+.slick-prev {
+  border: 1px solid rgb(212, 211, 211) !important;
+  background-color: #f1eeee !important;
+  width: 48px !important;
+  height: 48px !important;
+  z-index: 999 !important;
+  left: -10px !important;
+  top: 110px !important;
+
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+    // font-size: 20px !important;
+  }
+}
+.slick-prev:before {
+  font-family: FontAwesome !important;
+  color: grey !important;
+}
+.slick-next {
+  border: 1px solid rgb(212, 211, 211) !important;
+  background-color: #fff !important;
+  width: 48px !important;
+  height: 48px !important;
+  z-index: 999 !important;
+  right: -10px !important;
+  top: 110px !important;
+
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+    // font-size: 20px !important;
+  }
+}
+.slick-next:before {
+  font-family: FontAwesome !important;
+  color: grey !important;
+}
+
+.slick-disabled {
+  display: none !important;
+}
+.section {
+  width: 100%;
+  &.section-medical-facility {
+    background-color: #f5f5f5;
+  }
+  &.section-handbook {
+    background-color: #f5f5f5;
+  }
+  .section-content {
+    width: 80%;
+    margin: 0 auto;
+
+    .section-header {
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .title-section {
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .btn-section {
+        text-transform: uppercase;
+        padding: 10px 15px;
+        border: none;
+        outline: none;
+        background-color: #ebebeb;
+        color: black;
+        cursor: pointer;
+        &:hover {
+          color: #fff;
+          background-color: #f7d800;
+        }
+      }
+    }
+    .section-body {
+      .section-customize {
+        // display: flex;
+        // justify-content: space-around;
+        // flex-direction: column;
+        padding: 0 5px;
+        outline: none;
+        cursor: pointer;
+        &:hover .text {
+          color: #45c3d2;
+        }
+        .bg-img {
+          // width: 300px;
+          width: 100%;
+          height: 200px;
+        }
+        .text {
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}
+
+//css slider outstandingdoctor
+.section-customize-outstanding-doctor {
+  .customize-border {
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+    .outer-bg {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 10px;
+      text-align: center;
+
+      .img-doctor {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.home-footer {
+  text-align: center;
+  padding-top: 10px;
+}
+
+// .app {
+//   overflow: scroll;
+// }

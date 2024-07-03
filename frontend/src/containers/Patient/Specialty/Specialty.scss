@@ -1,0 +1,46 @@
+.specialty-container {
+  margin-top: 50px;
+  .header-specialty {
+    display: flex;
+    justify-content: space-between;
+    .searchClinic {
+      width: 700px;
+      border-radius: 3px;
+      input {
+        height: 40px;
+      }
+    }
+    .title-specialty {
+      //   font-weight: bold;
+      font-size: 30px;
+    }
+  }
+  .all-specialty {
+    // border: 1px solid red;
+    margin: 0 10px;
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    .child-specialty {
+      width: 25%;
+      margin: 15px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 200px;
+      cursor: pointer;
+      .img {
+        height: 170px;
+        // background-color: blue;
+        width: 300px;
+        border: 2px solid #eee;
+        border-radius: 5px;
+      }
+      .name {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.doctor-container {
+  margin-top: 50px;
+  .header-doctor {
+    display: flex;
+    justify-content: space-between;
+    .searchClinic {
+      width: 700px;
+      border-radius: 3px;
+      input {
+        height: 40px;
+      }
+    }
+    .title-doctor {
+      //   font-weight: bold;
+      font-size: 30px;
+    }
+  }
+  .all-doctor {
+    // border: 1px solid red;
+    margin: 0 10px;
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    .child-doctor {
+      width: 24%;
+      margin: 15px 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 220px;
+      cursor: pointer;
+      border: 3px solid #eee;
+      border-radius: 3%;
+
+      .bg-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        .img {
+          margin-top: 10px;
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}

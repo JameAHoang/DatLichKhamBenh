@@ -1,0 +1,59 @@
+.modal-patient-container {
+  .lightbox {
+    z-index: 100;
+  }
+  .modal-patient-content {
+    .modal-patient-header {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+      font-size: 17px;
+      font-weight: 600;
+      color: #333;
+    }
+    .modal-patient-body {
+      padding: 10px;
+      margin-top: 10px;
+      .preview-img-container {
+        .label-upload {
+          padding: 5px;
+          border-radius: 3px;
+          background-color: #ddd;
+          cursor: pointer;
+
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+        .preview-image {
+          height: 50px;
+          width: 100%;
+          border: 1px solid #ddd;
+          background: center center no-repeat;
+          background-size: contain;
+          cursor: pointer;
+        }
+      }
+    }
+    .modal-patient-footer {
+      margin-top: 20px;
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+      border-top: 1px solid #ccc;
+      gap: 15px;
+      button {
+        border: none;
+        outline: none;
+        padding: 5px 8px;
+        border-radius: 3px;
+        width: 80px;
+      }
+      .btn-patient-confirm {
+        background-color: orange;
+      }
+      .btn-patient-cancel {
+        background-color: gray;
+      }
+    }
+  }
+}

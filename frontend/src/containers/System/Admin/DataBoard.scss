@@ -1,0 +1,39 @@
+.databoard-main {
+  //   background-color: red;
+  height: 500px;
+  width: 1000px;
+  margin-top: 50px;
+  display: flex;
+  //   flex-wrap: nowrap;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  .databoard-content-list {
+    cursor: pointer;
+    border-radius: 3%;
+    background-color: #eee;
+    height: 200px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
+    }
+    .icon i {
+      margin-top: 20px;
+      font-size: 50px;
+    }
+    .title-name {
+      font-size: 18px;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    .count {
+      margin-top: 10px;
+      font-size: 35px;
+    }
+  }
+}

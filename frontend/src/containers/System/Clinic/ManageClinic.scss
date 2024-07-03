@@ -1,0 +1,25 @@
+.manage-clinic-container {
+  padding: 0 15px;
+  .search {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    .searchClinic {
+      width: 500px;
+    }
+  }
+  .mc-title {
+    text-align: center;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .all-clinic {
+    .img-clinic {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
